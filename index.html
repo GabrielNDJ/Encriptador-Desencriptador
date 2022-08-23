@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="imagenes/logo.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptado/Desencriptador</title>
+</head>
+
+<body>
+
+    <canvas id="canv">
+        <script src="canvas.js"></script>
+    </canvas>
+    <main class="form">
+        <h1>ENCRIPTADOR Y DESENCRIPTADOR.</h1>
+
+        <section>
+            <textarea class="input-texto" id="textocaja" required onkeypress="return SoloLetras(event)" placeholder="INGRESE TEXTO QUE DESEA ENCRIPTAR/DESENCRIPTAR.">
+            </textarea>
+            <p>⚠ No ingresar texto en mayuscula, ni acentos, ni caracteres especiales y numeros.</p>
+            <button  onclick="btnEncriptar()" class="button" id="encriptar">Encriptar</button>
+            <button  onclick="btnDesencriptar()" class="button" id="desencriptar">Desencriptar</button>
+        </section>
+
+        <section class="desencriptado">
+        <textarea class="mensaje" id="texto-pasado" readonly></textarea>
+        <button  onclick="copiar()" id="copiar">Copiar</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <h3 id="desarrollo">Desarrollado por: G.N.J.</h3>
+</footer>
+
+</html>

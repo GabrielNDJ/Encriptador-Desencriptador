@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+
+
+/* ----------------------------SCROOLL ESTILO-------------------------- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #0f0;
+    border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+    height: 40%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #571ef3;
+}
+
+
+/* ----------------------------FORMULARIO-------------------------- */
+
+canvas {
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 500px;
+    border: 3px solid #73AD21;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 20px 10px 20px 10px;
+}
+
+.form h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#textocaja {
+    background-color: transparent;
+    margin-left: 12px;
+    color: white;
+    border: 3px solid #0f0;
+    font-size: 1.3rem;
+    resize: none;
+    width: 97%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+section p {
+    color: red;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.7rem;
+
+}
+
+#texto-pasado {
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background: transparent;
+    border: 3px solid #0f0;
+    border-radius: 10px;
+    width: 97%;
+    height: 100px;
+    resize: none;
+    overflow-y: auto;
+    padding: 10px;
+    
+    
+}
+
+
+/* ----------------------------BUTTONS-------------------------- */
+
+.button {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px auto 15px 20px;
+    font-weight: bold;       
+    border-radius: 28px;    
+    box-shadow: 0px 3px 5px #666666;
+    text-shadow: 0px 1px 3px #666666;    
+    background: linear-gradient(to top, #0f0, #050002);
+}
+
+.button:hover {
+    background: rgb(15, 15, 247);
+}
+
+#desencriptar{
+    background: linear-gradient( to bottom,#0f0, #050002  );
+}
+
+#desencriptar:hover{
+    background: rgb(250, 8, 8);
+}
+
+#copiar {
+    float: right;
+    margin: 20px ;      
+    color: #ffffff;
+    font-size: 10px;
+    padding: 8px;    
+    border-radius: 3px;    
+    box-shadow: 7px 3px 5px #0f0;
+    background: linear-gradient(to top, #260968, #050002);
+}
+
+#copiar:hover {
+    background: linear-gradient(to left, #0b870b, #8bf02d)
+}
+
+
+/* ----------------------------FOOTER-------------------------- */
+
+footer {
+    background-color: black;
+}
+
+#desarrollo {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #0f0;
+    opacity: 0.6;
+}
+
+/* ----------------------------ALERTA-------------------------- */
+
+.error {
+    color: red;    
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.errorok{
+    color: black;
+    font-weight: bold;
+}
+
+.errorI{
+    color: red;
+}
