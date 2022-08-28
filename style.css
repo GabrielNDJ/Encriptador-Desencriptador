@@ -172,3 +172,19 @@ footer {
 .errorI{
     color: red;
 }
+
+@media (max-width: 720px){
+    *{
+        width: auto;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+    #texto-pasado{
+        height: min-content;
+    }
+
+    .button{
+        font-size: 0.8rem;
+    }
+}
