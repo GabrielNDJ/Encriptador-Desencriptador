@@ -173,6 +173,9 @@ footer {
     color: red;
 }
 
+
+/* ----------------------------MEDIAQUERY-------------------------- */
+
 @media (max-width: 720px){
     *{
         width: auto;
