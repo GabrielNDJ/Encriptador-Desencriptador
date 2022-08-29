@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://gabrielnietodejesus.com.ar/imagen/encriptador.png" align="center" style="width: 100%" />
+<img src="https://gabrielnietodejesus.com.ar/porfolio/portfolio3/imagenes/encriptador.png" align="center" style="width: 100%" />
 </div> 
   
 <br><br/>
